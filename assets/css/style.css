@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 35px;
+	color: black;
+}
+p {
+	font-weight: bold;
+}
+#ufc {
+	margin: -5px 0px 0px 365px;
+}
+#timeremaining {
+	background: rgba(179,175,166,0.3);
+	padding: 3px 25px;
+	display: inline-block;
+	color: white;
+}
+#questions1 {
+	background: rgba(179,175,166,0.3);
+	box-shadow: -10px 5px 5px #555555;
+	border-radius: 50px;
+	padding: 15px 45px;
+	margin: 250px 0px 45px 465px;
+	width: 645px;
+	display: block;
+	text-align: center;
+	border: #434343;
+}
+#questions2 {
+	background: rgba(179,175,166,0.3);
+	box-shadow: -10px 5px 5px #555555;
+	border-radius: 50px;
+	padding: 15px 45px;
+	margin: 70px 0px 45px 465px;
+	width: 645px;
+	display: block;
+	text-align: center;
+	border: #434343;
+}
+#questions3 {
+	background: rgba(179,175,166,0.3);
+	box-shadow: -10px 5px 5px #555555;
+	border-radius: 50px;
+	padding: 15px 45px;
+	margin: 70px 0px 45px 465px;
+	width: 645px;
+	display: block;
+	text-align: center;
+	border: #434343;
+}
+#questions4 {
+	background: rgba(179,175,166,0.3);
+	box-shadow: -10px 5px 5px #555555;
+	border-radius: 50px;
+	padding: 15px 45px;
+	margin: 70px 0px 45px 465px;
+	width: 645px;
+	display: block;
+	text-align: center;
+	border: #434343;
+}
+.a1 {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+#done {
+	padding: 15px 45px;
+	margin: 70px 0px 45px 465px;
+	
+}

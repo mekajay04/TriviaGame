@@ -2,9 +2,86 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trivia Game</title>
+<!-- Latest compiled and minified CSS -->
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!--MY STYLE SHEET-->
+<link rel ="stylesheet" href="assets/css/style.css" type="text/css">
+<!--JQUERY-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!--JAVASCRIPT-->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
 
-<body>
+<body background="assets/images/gspdiaz.jpg" style="background-repeat: no-repeat;  background-size: cover;">
+
+<!--TITLE-->
+<div id="ufc"> <img src="images/textfx.png"> </div>
+
+<!--TIMER-->
+<div id="container">
+  <div id="timeremaining">
+    <div class="row">
+      <h1><font color="#BC1F21">Time Remaining:</font>
+        <div id="time"></div>
+        <font color="#BC1F21">Seconds</font></h1>
+      <div id="correct"></div>
+      <div id="incorrect"></div>
+    </div>
+  </div>
+  
+<!--  QUESTIONS-->
+  <form name="UFC">
+    <div id="questions1">
+      <div class="row">
+        <p> Who is the heavy weight champ? </p>
+        <input type="radio" name="q" value="a" id="answer1"/>
+        <font color="#040966">Stipe Miocic</font></div>
+      <input type="radio" name="q" value="b" id="incorrect1"/>
+      <div class="a1"><font color="#040966">Fabricio Werdum</font>
+        <input type="radio" name="q" value="b" id="incorrect2"/>
+        <div class="a1"><font color="#040966">Cain Velasquez</font></div>
+      </div>
+	  </div>
+	
+    <div id="questions2">
+      <p> Who did Ronda Rousey lose to? </p>
+      <input type="radio" name="r" value="b" id="incorrect3"/>
+      <div class="a1"><font color="#040966">Juliana Pena</font></div>
+      <input type="radio" name="r" value="b" id="incorrect4"/>
+      <div class="a1"><font color="#040966">Bethe Correia</font></div>
+      <input type="radio" name="r" value="a" id="answer2"/>
+      <div class="a1"><font color="#040966">Holly Homes</font></div>
+    </div>
+    
+    <div id="questions3">
+      <p> Who is the UFC's Octagon announcer? </p>
+      <input type="radio" name="m" value="b" id="incorrect5"/>
+      <div class="a1"><font color="#040966">Mike Goldberg</font></div>
+      <input type="radio" name="m" value="b" id="incorrect6"/>
+      <div class="a1"><font color="#040966">Joe Rogan</font></div>
+      <input type="radio" name="m" value="a" id="answer3"/>
+      <div class="a1"><font color="#040966">Bruce Buffer</font></div>
+    </div>
+    
+    <div id="questions4">
+      <p> How many rounds are in a main event fight? </p>
+      <input type="radio" name="z" value="a" id="answer4"/>
+      <div class="a1"><font color="#040966">5</font></div>
+      <input type="radio" name="z" value="b" id="incorrect7"/>
+      <div class="a1"><font color="#040966">6</font></div>
+      <input type="radio" name="z" value="b" id="incorrect8"/>
+      <div class="a1"><font color="#040966">3</font></div>
+    </div>
+    
+    <div id="done">
+      <button type="button" class="btn btn-primary">DONE</button>
+    </div>
+  </form>
+</div>
 </body>
 </html>
